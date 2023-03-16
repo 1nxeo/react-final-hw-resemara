@@ -37,7 +37,7 @@ function RegisterForm() {
   const loginButtonHandler = (newItem) => {
     if (validPw && !invalidId) {
       dispatch(__addUsers(newItem));
-      alert("가입 완료! 홈 화면으로 돌아갑니다.");
+      alert("가입 완료! 홈으로 돌아갑니다.");
       setNewUser({
         userId: "",
         password: "",
